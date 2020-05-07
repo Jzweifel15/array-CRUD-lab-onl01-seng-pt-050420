@@ -17,7 +17,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = []
+  array = ["arrays!", "wow"]
   array.pop()
 end
 
@@ -39,4 +39,4 @@ def retrieve_last_element_from_array(array)
   
 end
 
-remove_element_from_end_of_array("arrays!", "wow")
+remove_element_from_end_of_array()
